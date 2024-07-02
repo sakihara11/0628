@@ -1,15 +1,15 @@
 import java.util.Random;
-//import java.util.Scanner;
+import java.util.Scanner;
 public class data{
     public static void main(String[] args){
         Random rnd = new Random();
         String[] coin = new String[3];
         int head = 0,tail = 0;
-        /*System.out.println("Who are you?");
+        System.out.println("Who are you?");
         System.out.print(">");
         Scanner sc = new Scanner(System.in);
         String a = sc.next();
-        System.out.println("Hello," +a+"!");*/
+        System.out.println("Hello," +a+"!");
 
         for(int i=0;i<3;i++){
             rnd = new Random();
@@ -28,9 +28,9 @@ public class data{
             System.out.println("Round" +i+":"+coin[i]);
         }
          System.out.println("Heads:"+head+"," +"Tails:"+tail);
-         /*if(head >= 2)  System.out.println(a+" won!");
+         if(head >= 2)  System.out.println(a+" won!");
          else{
              System.out.println(a+" lose!");
-         }*/
+         }
     }
 }
