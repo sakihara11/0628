@@ -28,9 +28,9 @@ public class data{
             System.out.println("Round" +i+":"+coin[i]);
         }
          System.out.println("Heads:"+head+"," +"Tails:"+tail);
-         if(head >= 2)  System.out.println(a+" won!");
-         else{
-             System.out.println(a+" lose!");
-         }
+         //if(head >= 2)  System.out.println(a+" won!");
+         //else{
+         //    System.out.println(a+" lose!");
+         //}
     }
 }
